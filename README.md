@@ -8,15 +8,11 @@ Magento 2 module
 EAV Cleaner Console
 -------------------
 * Provide EAV cleanup.
-* Use --dry-run to check result without modifying data.
 
 Commands
 --------
 
-* `eav:config:restoredefault` Remove the storeview config values.
 * `eav:attributes:restoredefault` Remove the storeview product attribute values.
-* `eav:attributes:rmunused` Remove attributes with no values set and that are not present in any attribute sets.
-* `eav:media:rmunused` Remove unused product images.
 
 Installation
 ------------
